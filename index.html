@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="icon" href="./assets/images/icon.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Momo+Trust+Display&display=swap" rel="stylesheet">
+    <title>StanOK</title>
+</head>
+<body>
+    <header>
+        <img src="./assets/images/icon.png" alt="icon">
+        <input type="checkbox" id="burger-toggle" class="burger-toggle">
+            <label for="burger-toggle" class="burger-menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </label>
+        <nav>
+            <p class="nav-item">
+                <a href="#home">Home</a>
+            </p>
+            <p class="nav-item">
+                <a href="#about">About</a>
+            </p>
+            <p class="nav-item">
+                <a href="#project">Projects</a>
+            </p>
+            <p class="nav-item">
+                <a href="#contact">Contact</a>
+            </p>
+        </nav>
+        <button class="hd_button">Hire Me</button>
+    </header>
+    <main>
+        <section class="hero" id="home">
+            <div class="video_bg">
+                <video autoplay muted loop playsinline>
+                    <source src="./assets/video/I.mp4" type="video/mp4">
+                </video>
+            </div>
+            <div class="hero_info">
+                <h1>Hello, everyone! My name is Nazarii</h1>
+                <h2>I am a student from Ukrain, studying at SUICT, specialising in front-end development</h2>
+                <p>This website is my personal portfolio, where I will tell you about myself and what I can do</p>
+                <button>Viev Projects</button>
+            </div>
+        </section>
+        <section class="about" id="about">
+            <div class="about_info">
+                <div class="about_img">
+                    <img class="about_i" src="./assets/images/I.jpg" alt="I">
+                    <img class="about_icon" src="./assets/images/icon.png" alt="Icon">
+                </div>
+                <div class="about_text">
+                    <div class="about_me">
+                        <h2>Nazarii Demchuk</h2>
+                        <h3>19 years old</h3>
+                        <p>Ukrain</p>
+                    </div>
+                    <div class="about_edu">
+                        <h3>Education</h3>
+                        <p class="edu_university">State University of Information and Communication Technologies</p>
+                        <p class="edu_speciality">Computer Engineering</p>
+                        <p class="edu_date">September 2023 - up to now (by 2027) <span>|</span> Kyiv</p>
+                    </div>
+                    <div class="about_exp">
+                        <h3>Work Experience</h3>
+                        <p>At this point in time, I have no work experience</p>
+                    </div>
+                    <div class="about_cert">
+                        <h3>Certificates</h3>
+                        <ol>
+                            <li>
+                                <a href="./assets/files/Hillel Front-End Basic.pdf" target="_blank">
+                                    Hillel Front-End Basic
+                                </a>
+                            </li>
+                            <li>
+                                <a href="./assets/files/Mate JavaScript Basics.pdf" target="_blank">
+                                    Mate JavaScript Basics
+                                </a>
+                            </li>
+                            <li>
+                                <a href="./assets/files/CISCO IT Essentials.pdf" target="_blank">
+                                    CISCO IT Essentials
+                                </a>
+                            </li>
+                        </ol>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="project" id="project">
+            <h2>my projects</h2>
+            <div class="project_container">
+                <div class="project_info">
+                    <img src="./assets/images/Project1.png" alt="">
+                    <p>UpDate</p>
+                    <button onclick="window.open('https://nazariidemchuk.github.io/front-end-start/')">
+                        View
+                    </button>
+                </div>
+                <div class="project_info">
+                    <img src="./assets/images/Project2.png" alt="">
+                    <p>Vision Capital</p>
+                    <button onclick="window.open('https://nazariidemchuk.github.io/Front-End-University/')">
+                        View
+                    </button>
+                </div>
+                <div class="project_info">
+                    <img src="./assets/images/Project3.png" alt="">
+                    <p>GREENSHOP</p>
+                    <button onclick="window.open('https://nazariidemchuk.github.io/Front-End-Basic/')">
+                        View
+                    </button>
+                </div>
+                <div class="project_info">
+                    <img src="./assets/images/Project4.png" alt="">
+                    <p>hlegal</p>
+                    <button>View</button>
+                </div>
+                <div class="project_info">
+                    <img src="./assets/images/Project5.png" alt="">
+                    <p>BUSINESS</p>
+                    <button>View</button>
+                </div>
+                <div class="project_info">
+                    <img src="./assets/images/Project6.png" alt="">
+                    <p>TRAVEL AGENCY</p>
+                    <button>View</button>
+                </div>
+            </div>
+        </section>
+        <section class="contact" id="contact">
+            <h2>Contact</h2>
+            <div class="contact_container">
+                <div class="contact_text">
+                    <p>If you have any suggestions or questions, please write to us</p>
+                </div>
+                <form action="#" method="post" class="contact_field">
+                    <input type="text" name="name" placeholder="Name" required>
+                    <input type="email" name="email" placeholder="Email" required>
+                    <textarea name="text" placeholder="Text" id=""></textarea>
+                    <button>Send</button>
+                </form>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footer_container">
+            <img src="./assets/images/icon.png" alt="Icon">
+            <div class="footer_contact">
+                <p>
+                    <span>Tel:</span>
+                    <a href="tel:+380669078192">+38 066 907 81 92</a>
+                </p>
+                <p>
+                    <span>Email:</span>
+                    <a href="mailto:demchuknazar06@gmail.com">demchuknazar06@gmail.com</a>
+                </p>
+            </div>
+            <div class="footer_sm">
+                <button class="linkedin" onclick="window.open('https://www.linkedin.com/in/nazarii-demchuk-915570375/')">
+                    <img src="./assets/images/linkedin.png" alt="linkedin">
+                </button>
+                <button class="instagram" onclick="window.open('https://www.instagram.com/demchuk.st/')">
+                    <img src="./assets/images/instagram.png" alt="instagram">
+                </button>
+                <button class="telegram" onclick="window.open('https://t.me/Stanochok')">
+                    <img src="./assets/images/telegram.png" alt="telegram">
+                </button>
+                <button class="github" onclick="window.open('https://github.com/NazariiDemchuk')">
+                    <img src="./assets/images/github.png" alt="">
+                </button>
+            </div>
+        </div>
+        <div class="footer_end">
+            <p>© 2025 Nazarii</p>
+        </div>
+    </footer>
+    <a class="scroll-top" href="#home">↑</a>
+</body>
+</html>
